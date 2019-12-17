@@ -12,7 +12,13 @@
       background-color: #e9ecef;
       font-size: 1rem;
     }
-
+  .HackerBG { 
+      background-size:20%;
+      background-repeat: repeat;
+      width:100%;
+      height:100%;
+      background-image: url("assets/hackermanBG.gif");
+    }
     .card-img-top {
       height: 300px;
       object-fit: cover;
@@ -63,8 +69,8 @@
 
     .btn:hover {
       background-color: transparent;
-      color: black;
-      border-color: black;
+      color: white;
+      border-color: grey;
       transition: 0.5s;
     }
 
@@ -78,7 +84,7 @@
 
     .about {
       width: 100%;
-      background: linear-gradient(135deg, rgba(0, 153, 175, 0.8), rgba(20, 200, 20, 0.8));
+      background: linear-gradient(135deg, rgba(0, 200, 175, 0.8), rgba(20, 200, 20, 0.8));
       font-size: 1.2em;
       box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
     }
@@ -203,7 +209,7 @@
             </li>
           </ul>
           <span class="navbar-text">
-            RHS Club Directory
+            RHS Cybersecurity
           </span>
         </div>
       </nav>
@@ -212,14 +218,14 @@
   <div id="carouselSlidesOnly" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
-      <img src='assets/hackermanBG.gif' />
+      <div class="HackerBG"></div>
         <div class="wrapper">
           <div class="carousel-item-text">
             <h1 class="carousel-item-text-title" style="font-weight:400;">Ethical Cyber Hackers Organization</h1>
             <h2 class="carousel-item-text-subtitle" style="font-weight:100;">&nbsp; A club dedicated to cybersecurity </h2>
             <br>
-            <button type="button" class="btn btn-primary btn-lg">View our competitions </button>
-            <button type="button" class="btn btn-secondary btn-lg">Contact Us</button>
+            <button a href="/assets/Contact.html" type="button" class="btn btn-primary btn-lg">View our competitions </button>
+            <a href="C:\Users\colby.frey\Documents\Cybersecurity-Club-Website/Contact.html"><button type="button" class="btn btn-secondary btn-lg">Contact Us</button></a>
           </div>
         </div>
     </div>
@@ -231,36 +237,13 @@
     </div>
   </div>
 </div>
-  <div class="cards">
-    <div class="wrapper spacing">
-        <h1>Our Members</h1>
-      <div class="card-group">
-        <div class="card">
-          <img src="assets/jonathan.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Jonathan Narita</h5>
-            <p class="card-text">Club Member</p>
-          </div>qdent and Creator</p>
-          </div>
-        </div>
-        <div class="card">
-          <img src="assets/spencer.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Spencer Stice</h5>
-            <p class="card-text">Club Member</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  
   <div class="about spacing">
     <div class="wrapper">
     <div class="about-container">
       <div class="about-card">
         <h2> Our Club Calendar</h2>
-          <iframe src="https://calendar.google.com/calendar/embed?src=rocklinusd.org_dl6lhh76osmfs6gq6kimgpigmg%40group.calendar.google.com&ctz=America%2FLos_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-      </div>
-      <div class="about-card">
+          <iframe src="https://calendar.google.com/calendar/embed?src=rocklinusd.org_dl6lhh76osmfs6gq6kimgpigmg%40group.calendar.google.com&ctz=America%2FLos_Angeles" style="border: 0; width:80%; height:600px; display:block; margin:0 auto" frameborder="0" scrolling="yes"></iframe>
       </div>
     </div>
   </div>
